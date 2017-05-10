@@ -1,0 +1,10 @@
+OpenPose:
+    - Version 1.0.0rc1, extracted from GitHub on 05/03/2017 from the current master branch, and adding hands/face code.
+    - Link: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+
+Caffe:
+    - Version 1.0.0 from its official GitHub
+
+Spinnaker:
+    - Spinnaker 1.1.0.43 SDK - Linux Ubuntu (64-bit) — 04/19/2017 - 72.872MB
+    - Link: https://www.ptgrey.com/support/downloads

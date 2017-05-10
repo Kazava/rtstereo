@@ -1,0 +1,5 @@
+# Other files
+no_git/
+# Qt files
+*.user
+
