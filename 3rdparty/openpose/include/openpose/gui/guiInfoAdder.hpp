@@ -14,7 +14,7 @@ namespace op
 
         void addInfo(cv::Mat& cvOutputData, const Array<float>& poseKeyPoints, const unsigned long long id, const std::string& elementRenderedName);
 
-        void addInfo(std::vector<cv::Mat>& cvOutputDatas, const std::vector<Array<float>>& poseKeyPointsVector, const unsigned long long id, const std::string& elementRenderedName);
+        // void addInfo(std::vector<cv::Mat>& cvOutputDatas, const std::vector<Array<float>>& poseKeyPointsVector, const unsigned long long id, const std::string& elementRenderedName);
 
     private:
         // Const variables
@@ -28,6 +28,7 @@ namespace op
         unsigned int mFpsCounter;
         std::string mLastElementRenderedName;
         int mLastElementRenderedCounter;
+        unsigned long long mLastId;
     };
 }
 
